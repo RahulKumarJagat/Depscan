@@ -1,8 +1,6 @@
-Depscan
 
 ![Logo](logo.png)
-
-Depscan is a dependency scanner extension for Visual Studio Code that helps you
+    Depscan is a dependency scanner extension for Visual Studio Code that helps you
 identify vulnerabilities in your project's dependencies. It supports scanning
 dependencies for Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
 
