@@ -1,5 +1,12 @@
+![Logo](logo.png)
 Depscan
 Depscan is a dependency scanner extension for Visual Studio Code that helps you identify vulnerabilities in your project's dependencies. It supports scanning dependencies for Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
+
+## Authors
+- K.Vennela
+- Larens Patel
+- Rahul Kumar Jagat
+
 
 Features
 Depscan provides the following features:
@@ -52,12 +59,4 @@ Release Notes
 1.0.0: Initial release of Depscan.
 1.0.1: Fixed issue with scanning dependencies for Node.js projects.
 1.1.0: Added support for scanning dependencies for Rust, Go, Ruby, and C/C++ projects.
-Working with Markdown
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-Split the editor (Cmd+\ on macOS or Ctrl+\ on Windows and Linux)
-Toggle preview (Shift+Cmd+V on macOS or Shift+Ctrl+V on Windows and Linux)
-Press Ctrl+Space (Windows, Linux, macOS) to see a list of Markdown snippets
-For More Information
-Visual Studio Code's Markdown Support
-Markdown Syntax Reference
