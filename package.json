@@ -1,7 +1,7 @@
 {
   "name": "depscan",
   "displayName": "Depscan",
-  "description": "A dependency scanner for Python and Node.js projects",
+  "description": "A dependency scanner for Rust, Node.js, C, C++, Python projects",
   "version": "0.0.1",
   "icon": "logo.png",
   "repository": {
