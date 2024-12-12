@@ -470,7 +470,7 @@ function parseDependencyCheckReport(reportContent) {
             const columns = $(row).find('td');
             const packageName = $(columns[0]).text().trim();
             const packageVersion = $(columns[1]).text().trim();
-            const vulnerabilityId = $(columns[2]).text().trim();
+           // const vulnerabilityId = $(columns[2]).text().trim();
             const vulnerabilityDescription = $(columns[3]).text().trim();
             const vulnerabilitySeverity = $(columns[4]).text().trim();
 

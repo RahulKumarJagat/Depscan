@@ -3,6 +3,11 @@
   "displayName": "Depscan",
   "description": "A dependency scanner for Python and Node.js projects",
   "version": "0.0.1",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RahulKumarJagat/Depscan"
+  },
   "engines": {
     "vscode": "^1.95.0"
    

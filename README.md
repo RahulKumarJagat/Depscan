@@ -1,27 +1,35 @@
-![Logo](logo.png)
 Depscan
-Depscan is a dependency scanner extension for Visual Studio Code that helps you identify vulnerabilities in your project's dependencies. It supports scanning dependencies for Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
 
-## Authors
+![Logo](logo.png)
+===================================================================================
+Depscan is a dependency scanner extension for Visual Studio Code that helps you
+identify vulnerabilities in your project's dependencies. It supports scanning
+dependencies for Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
+
+===================================================================================
+## Authors:
 - K.Vennela
 - Larens Patel
 - Rahul Kumar Jagat
 
+===================================================================================
+## Features:
 
-Features
 Depscan provides the following features:
 
-Scans dependencies for vulnerabilities in Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
-Displays scan results in a user-friendly table format.
-Supports scanning dependencies from various package managers, including:
-Python: pip
-Node.js: npm
-Rust: Cargo
-Go: Go Modules
-Ruby: Bundler
-C/C++: Makefile or CMakeLists.txt
-Allows users to view detailed information about each vulnerability, including its severity and description.
-Requirements
+-Scans dependencies for vulnerabilities in Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
+-Displays scan results in a user-friendly table format.
+-Supports scanning dependencies from various package managers, including:
+-Python: pip
+-Node.js: npm
+-Rust: Cargo
+-Go: Go Modules
+-Ruby: Bundler
+-C/C++: Makefile or CMakeLists.txt
+-Allows users to view detailed information about each vulnerability, including its severity and description.
+====================================================================================
+## Requirements:
+
 To use Depscan, you need to have the following dependencies installed:
 
 For Python: pipdeptree
@@ -33,26 +41,20 @@ For C/C++: cppcheck
 You can install these dependencies by running the following commands:
 
 For Python:
-bash
-Insert Code
-Run
-Copy code
 pip install pipdeptree
 For Node.js: Download and install Node.js from https://nodejs.org/
 For Rust: Download and install Rust from https://www.rust-lang.org/tools/install
 For Go: Download and install Go from https://golang.org/dl/
 For Ruby:
-bash
-Insert Code
-Run
-Copy code
 gem install bundler
 gem install bundler-audit
 For C/C++: Install cppcheck via your package manager (e.g., apt, brew, etc.).
 Extension Settings
-Depscan does not contribute any VS Code settings.
 
-Known Issues
+Depscan does not contribute any VS Code settings.
+====================================================================================
+## Known Issues:
+
 Depscan may not work correctly if your project has a complex dependency structure.
 Depscan may not be able to scan dependencies for projects that use custom package managers.
 Release Notes
