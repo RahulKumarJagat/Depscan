@@ -4,11 +4,6 @@
 identify vulnerabilities in your project's dependencies. It supports scanning
 dependencies for Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
 
-## Authors:
-- K.Vennela
-- Larens Patel
-- Rahul Kumar Jagat
-
 ## Features:
 
 - Scans dependencies for vulnerabilities in Python, Node.js, Rust, Go, Ruby, and C/C++ projects.
